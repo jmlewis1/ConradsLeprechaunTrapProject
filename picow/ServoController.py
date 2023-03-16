@@ -11,6 +11,7 @@ class ServoController:
         self.servo = PWM(Pin(0, Pin.OUT))
         self.servo.freq(50)
         self.setPosition(startingAngle)
+        
 
     def getPosition(self):
         return self.degrees

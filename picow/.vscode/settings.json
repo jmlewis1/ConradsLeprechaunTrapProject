@@ -12,5 +12,7 @@
     "picowgo.openOnStart": true,
     "picowgo.autoConnect": false,
     "picowgo.manualComDevice": "COM6",
-    "picowgo.pyIgnore": ["main.py"]
+    "picowgo.pyIgnore": [
+        "main.py"
+    ]
 }
